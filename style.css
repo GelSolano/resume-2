@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 20%;
+    display: block;
+    margin-bottom: 20px;
+
+}   
+.container .add{
+    font-family: 'B612', sans-serif;
+    text-align: left;
+    margin-left: 200px;
+    text-size-adjust: 0px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+.container .email{
+    font-family: 'B612', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+}
+.container .phnum{
+    font-family: 'B612', sans-serif;
+    margin-top: -20px;
+    text-align: right;
+    margin-right: 300px;
+    font-size: 15px;
+    font-weight: 900;
+
+}
+
+h1{
+    
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+    background-color: rgba(214, 80, 163, 0.637);
+    border: 15px solid rgb(0, 0, 0);
+    margin: 20px;
+    width: 500px;
+}
+.summary h2{
+    font-size: 50px;
+    font-family: 'B612', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 900;
+    
+}
+.summary p{
+    font-size: 100%;
+    font-family: 'B612', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 900;
+  
+}
+hr.new2 {
+    border: 1px solid red;
+    width: 83%;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.education h2, .skills h2{
+    font-size: 40px;
+    font-family: 'B612', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.year li{
+    font-size: 100%;
+    font-family: 'B612', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.year  .school{
+    font-size: 100%;
+    font-family: 'B612', sans-serif;
+    text-align: center;
+    font-weight: 900;
+ 
+}
+hr.new2 {
+    border: 2px solid red;
+    width: 83%;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.skills h2{
+    text-align: center;
+    font-family: 'B612', sans-serif;
+    font-weight: 900;
+}
+
+.skills-content {
+    line-height: 180%;
+    text-align: center;
+    font-family: 'B612', sans-serif;
+    font-weight: bold;
+}
+
+.borders{
+    border: 10px solid rgb(0, 0, 0);
+    width: 90%;
+    padding: 10px 10px;
+    background: radial-gradient(circle, rgba(234,2,237,0.3841911764705882) 45%, rgba(0,87,166,0.48783263305322133) 93%);
+}
+
+
